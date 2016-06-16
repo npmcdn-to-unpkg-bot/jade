@@ -6,17 +6,4 @@ $('ul.nav li.dropdown').hover(function() {
 });
 
 
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
-
-// When the DOM is ready, run this function
-$(document).ready(function() {
-  //Set the carousel options
-  $('#quote-carousel').carousel({
-    pause: true,
-    interval: 4000,
-  });
-});
-
 

@@ -1,38 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Include Content from Jade File</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A description of this page">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>IncomeUp</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <div class="wrapper"><a href="http://tutsplus.com" class="global-nav__header-tuts-logo-link"><img alt="tuts+" src="tuts_logo.svg" class="global-nav__header-tuts-logo-image"></a><span class="page-footer__tuts-brand-text"><!DOCTYPE html>
-          <html lang="en">
-            <head>
-              <title>Include Content from Jade File</title>
-              <meta charset="utf-8">
-              <meta http-equiv="X-UA-Compatible" content="IE=edge">
-              <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <meta name="description" content="A description of this page">
-              <link href="css/style.css" rel="stylesheet" type="text/css">
-            </head>
-          </html></span></div>
-    </nav>
-    <main class="wrapper">
-      <h1>Include Content from Jade File</h1>
-      <p>If you’re not using Jade, you’re missing out on some of the fastest HTML you’ll ever produce as well as boilerplate templating methods that will slash your development time in half.</p>
-      <ul>
-        <li><a>Link One</a></li>
-        <li><a>Link Two</a></li>
-        <li><a>Link Three</a></li>
-        <li><a>Link Four</a></li>
-        <li><a>Link Five</a></li>
-      </ul>
-      <p>In “Top Speed HTML Dev with Jade” you’ll learn how to generate full HTML from quick and easy shorthand. You’ll then build on that foundation to create infinitely reusable templates so you never write the same code twice again. Let’s begin!</p>
-    </main>
+    <div role="navigation" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li class="active"><a href="#">Servies</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content"> </div>
   </body>
+  <div class="row">
+    <div class="container">
+      <footer class="footer row each-row">
+        <ul class="col-sm-12 col-md-4 col-lg-3">
+          <li>
+            <h3>Heading</h3>
+          </li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+        <ul class="col-sm-12 col-md-4 col-lg-3">
+          <li>
+            <h3>Heading</h3>
+          </li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+        <ul class="col-sm-12 col-md-4 col-lg-3">
+          <li>
+            <h3>Heading</h3>
+          </li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+        <ul class="col-sm-12 col-lg-3">
+          <li>
+            <h3>Heading</h3>
+          </li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="# ">Link</a></li>
+        </ul>
+      </footer>
+      <aside class="copyright">
+        <p>Maecenas vitae mi ut justo aliquam volutpat. Fusce malesuada rhoncus mi, nec ultricies mi aliquet nec. © <a href="#" target="_blank">IncomeUp.com</a></p>
+      </aside>
+    </div>
+  </div>
 </html>
